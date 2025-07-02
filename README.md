@@ -1,11 +1,11 @@
-# Water Quality Prediction - RMS
+# Water Quality Prediction 
 # INTERNSHIP
 This project aims to predict multiple water quality parameters using machine learning techniques, specifically `MultiOutputRegressor` wrapped around a `RandomForestRegressor`. It was developed as part of a one-month **AICTE Virtual Internship sponsored by Shell** in **June 2025**.
 
 ---
 
 ## Overview
-
+Clean water monitoring demands intelligent forecasting.  
 Access to clean water is a critical global concern. Accurate prediction of various water quality metrics can help in early detection of pollution and ensure timely intervention.
 
 In this project, we:
@@ -14,7 +14,9 @@ In this project, we:
 - Used supervised machine learning for multi-target regression
 - Built a pipeline using `MultiOutputRegressor` with `RandomForestRegressor`
 - Evaluated the model using appropriate regression metrics
-
+- Deep learning architecture using LSTM networks for temporal pattern recognition
+- Multi-variate prediction of 12 critical water parameters simultaneously
+- Real-time visualization dashboard for monitoring and alert generation
 ---
 
 ## Technologies Used
