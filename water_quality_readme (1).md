@@ -67,7 +67,8 @@ Each algorithm was evaluated based on:
 
    - Built and tested multiple ML models
    - Compared performance to select the best one
-
+   - model link
+https://drive.google.com/file/d/18RJzu35vyuMgpcAE590u1IaDvHY3-SWq/view?usp=sharing
 ---
 
 ## &#x20;
