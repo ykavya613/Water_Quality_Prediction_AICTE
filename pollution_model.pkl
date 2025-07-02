@@ -1,0 +1,68 @@
+ <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Water Quality Analysis</title>
+    <style type="text/css">
+        body {
+            background: linear-gradient(to bottom, #a8c8e0, #f0f0f2);
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .container {
+            max-width: 800px; /* Increased width for better readability */
+            margin: 5em auto;
+            padding: 2em;
+            background-color: rgba(61, 61, 167, 0.8);
+            border-radius: 0.5em;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center; /* Centered text for better presentation */
+        }
+
+        a:link, a:visited {
+            color: rgb(174, 179, 200);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .water-image {
+            width: 100%;
+            max-width: 100%; /* Ensures the image is responsive */
+            height: auto; /* Maintains aspect ratio */
+            border-radius: 0.5em;
+            margin-top: 1em;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                margin: 2em auto; /* Adjusted margin for smaller screens */
+                padding: 1em; /* Reduced padding for smaller screens */
+            }
+        }
+    </style>    
+</head>
+
+<body>
+<div class="container">
+    <h1>Water Quality Monitoring Dashboard</h1>
+    <p>This dashboard displays water quality metrics and predictive analysis. 
+    The system uses machine learning to monitor and forecast water conditions.</p>
+    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1af4ed8a-248e-445b-9777-50c668f14b62.png" alt="Clean water illustration" class="water-image">
+    <p><a href="/predictions">View Detailed Water Quality Predictions →</a></p>
+</div>
+</body>
+</html>
