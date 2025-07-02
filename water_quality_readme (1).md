@@ -73,6 +73,8 @@ Each algorithm was evaluated based on:
 ## &#x20;
 
 ---
+## I have also deployed the model through streamlit 
+
 
 ## 🔧 Technologies Used
 
